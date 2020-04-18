@@ -144,7 +144,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="res\Qq.jpg" />
+    <EmbeddedResource Include="res\Qq.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

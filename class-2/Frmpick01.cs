@@ -49,5 +49,12 @@ namespace class_2
             _assembly = Assembly.GetExecutingAssembly();
             _ImageStream = _assembly.GetManifestResourceStream("class_2.res.Qq.jpg");
         }
+
+        private void Btnre_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+
+
+        }
     }
 }

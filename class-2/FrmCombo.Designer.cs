@@ -43,7 +43,7 @@
             this.btnssm1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnssm1.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnssm1.Location = new System.Drawing.Point(58, 32);
-            this.btnssm1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnssm1.Margin = new System.Windows.Forms.Padding(2);
             this.btnssm1.Name = "btnssm1";
             this.btnssm1.Size = new System.Drawing.Size(104, 80);
             this.btnssm1.TabIndex = 0;
@@ -56,7 +56,7 @@
             this.btnssm2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnssm2.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnssm2.Location = new System.Drawing.Point(250, 32);
-            this.btnssm2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnssm2.Margin = new System.Windows.Forms.Padding(2);
             this.btnssm2.Name = "btnssm2";
             this.btnssm2.Size = new System.Drawing.Size(107, 80);
             this.btnssm2.TabIndex = 1;
@@ -69,7 +69,7 @@
             this.btnrbn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnrbn.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnrbn.Location = new System.Drawing.Point(261, 261);
-            this.btnrbn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnrbn.Margin = new System.Windows.Forms.Padding(2);
             this.btnrbn.Name = "btnrbn";
             this.btnrbn.Size = new System.Drawing.Size(108, 72);
             this.btnrbn.TabIndex = 2;
@@ -82,7 +82,7 @@
             this.btnrbi.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnrbi.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnrbi.Location = new System.Drawing.Point(66, 261);
-            this.btnrbi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnrbi.Margin = new System.Windows.Forms.Padding(2);
             this.btnrbi.Name = "btnrbi";
             this.btnrbi.Size = new System.Drawing.Size(120, 72);
             this.btnrbi.TabIndex = 3;
@@ -95,30 +95,32 @@
             this.btnrli.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnrli.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnrli.Location = new System.Drawing.Point(418, 32);
-            this.btnrli.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnrli.Margin = new System.Windows.Forms.Padding(2);
             this.btnrli.Name = "btnrli";
             this.btnrli.Size = new System.Drawing.Size(122, 80);
             this.btnrli.TabIndex = 4;
             this.btnrli.Text = "Remove last item";
             this.btnrli.UseVisualStyleBackColor = false;
+            this.btnrli.Click += new System.EventHandler(this.btnrli_Click);
             // 
             // btnr2li
             // 
             this.btnr2li.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnr2li.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnr2li.Location = new System.Drawing.Point(418, 149);
-            this.btnr2li.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnr2li.Margin = new System.Windows.Forms.Padding(2);
             this.btnr2li.Name = "btnr2li";
             this.btnr2li.Size = new System.Drawing.Size(122, 69);
             this.btnr2li.TabIndex = 5;
             this.btnr2li.Text = "Remove 2nd last item";
             this.btnr2li.UseVisualStyleBackColor = false;
+            this.btnr2li.Click += new System.EventHandler(this.btnr2li_Click);
             // 
             // CmbDays
             // 
             this.CmbDays.FormattingEnabled = true;
             this.CmbDays.Location = new System.Drawing.Point(91, 149);
-            this.CmbDays.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CmbDays.Margin = new System.Windows.Forms.Padding(2);
             this.CmbDays.Name = "CmbDays";
             this.CmbDays.Size = new System.Drawing.Size(248, 21);
             this.CmbDays.TabIndex = 6;
@@ -128,7 +130,7 @@
             this.btnBack.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnBack.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.Location = new System.Drawing.Point(418, 261);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(122, 65);
             this.btnBack.TabIndex = 7;
@@ -149,7 +151,7 @@
             this.Controls.Add(this.btnrbn);
             this.Controls.Add(this.btnssm2);
             this.Controls.Add(this.btnssm1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmCombo";
             this.Text = "Form Combo";
             this.Load += new System.EventHandler(this.FrmCombo_Load);

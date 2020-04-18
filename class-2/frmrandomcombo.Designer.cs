@@ -35,9 +35,10 @@
             // 
             // BtnGenerate
             // 
-            this.BtnGenerate.Location = new System.Drawing.Point(476, 73);
+            this.BtnGenerate.Location = new System.Drawing.Point(357, 59);
+            this.BtnGenerate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnGenerate.Name = "BtnGenerate";
-            this.BtnGenerate.Size = new System.Drawing.Size(143, 53);
+            this.BtnGenerate.Size = new System.Drawing.Size(107, 43);
             this.BtnGenerate.TabIndex = 0;
             this.BtnGenerate.Text = "Generate";
             this.BtnGenerate.UseVisualStyleBackColor = true;
@@ -45,29 +46,33 @@
             // 
             // BtnReset
             // 
-            this.BtnReset.Location = new System.Drawing.Point(335, 234);
+            this.BtnReset.Location = new System.Drawing.Point(251, 190);
+            this.BtnReset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BtnReset.Name = "BtnReset";
-            this.BtnReset.Size = new System.Drawing.Size(91, 80);
+            this.BtnReset.Size = new System.Drawing.Size(68, 65);
             this.BtnReset.TabIndex = 1;
             this.BtnReset.Text = "Reset";
             this.BtnReset.UseVisualStyleBackColor = true;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // cmbrand
             // 
             this.cmbrand.FormattingEnabled = true;
-            this.cmbrand.Location = new System.Drawing.Point(185, 103);
+            this.cmbrand.Location = new System.Drawing.Point(139, 84);
+            this.cmbrand.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbrand.Name = "cmbrand";
-            this.cmbrand.Size = new System.Drawing.Size(225, 24);
+            this.cmbrand.Size = new System.Drawing.Size(170, 21);
             this.cmbrand.TabIndex = 2;
             // 
             // frmrandomcombo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.cmbrand);
             this.Controls.Add(this.BtnReset);
             this.Controls.Add(this.BtnGenerate);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmrandomcombo";
             this.Text = "frmrandomcombo";
             this.ResumeLayout(false);

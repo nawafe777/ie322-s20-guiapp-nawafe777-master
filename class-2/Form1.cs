@@ -39,6 +39,8 @@ namespace class_2
 
         private void BtnRandomCombo_Click(object sender, EventArgs e)
         {
+            FrmRandom frm = new FrmRandom();
+            frm.ShowDialog();
 
         }
 

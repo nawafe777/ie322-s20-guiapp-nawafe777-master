@@ -29,5 +29,11 @@ namespace class_2
                 cmbrand.Items.Add(c.Next(100, 999));
             }
         }
+
+        private void BtnReset_Click(object sender, EventArgs e)
+        {
+            cmbrand.Items.Clear();
+
+        }
     }
 }

@@ -55,5 +55,40 @@ namespace class_2
         {
             CmbDays.Items.RemoveAt(1);
         }
+
+        private void btnrli_Click(object sender, EventArgs e)
+        {
+            if (CmbDays.Items.Count >= 1)
+            {
+                CmbDays.Items.RemoveAt(CmbDays.Items.Count - 1);
+            }
+            else
+            {
+                MessageBox.Show("Can't remove last item");
+            }
+
+        }
+
+        private void btnr2li_Click(object sender, EventArgs e)
+        {
+            if (CmbDays.Items.Count >= 1)
+            {
+                CmbDays.Items.RemoveAt(CmbDays.Items.Count - 1);
+            }
+            else
+            {
+                MessageBox.Show("Can't remove last item");
+            }
+
+            if (CmbDays.Items.Count >= 2)
+            {
+                CmbDays.Items.RemoveAt(CmbDays.Items.Count - 2);
+            }
+            else
+            {
+                MessageBox.Show("Can't remove 2ast item");
+            }
+
+        }
     }
 }
