@@ -59,7 +59,7 @@
             this.lblDisplay.AutoSize = true;
             this.lblDisplay.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDisplay.ForeColor = System.Drawing.Color.Red;
-            this.lblDisplay.Location = new System.Drawing.Point(255, 19);
+            this.lblDisplay.Location = new System.Drawing.Point(151, 95);
             this.lblDisplay.Name = "lblDisplay";
             this.lblDisplay.Size = new System.Drawing.Size(71, 22);
             this.lblDisplay.TabIndex = 1;
@@ -120,7 +120,7 @@
             // LstRandom
             // 
             this.LstRandom.FormattingEnabled = true;
-            this.LstRandom.Location = new System.Drawing.Point(250, 56);
+            this.LstRandom.Location = new System.Drawing.Point(25, 72);
             this.LstRandom.Name = "LstRandom";
             this.LstRandom.Size = new System.Drawing.Size(92, 173);
             this.LstRandom.TabIndex = 6;
